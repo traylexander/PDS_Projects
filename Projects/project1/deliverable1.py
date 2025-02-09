@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Moz API credentials (replace with your credentials)
-MOZ_ACCESS_ID = "mozscape-YMjKpOPwYs"
-MOZ_SECRET_KEY = "aPZhiekLrGLxprvr8AuZVUzPDSxFNrR0"
+MOZ_ACCESS_ID = "your_moz_ID"
+MOZ_SECRET_KEY = "your_moz_secret_key"
 
 def get_domain_authority(url):
     """
